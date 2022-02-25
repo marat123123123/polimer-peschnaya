@@ -1,0 +1,43 @@
+
+figure{
+    text-align: center;
+   margin:3vmin;
+    overflow:auto;
+    }
+
+figure p{
+    text-align: left;
+    padding:1vmin;
+}
+figcaption {
+ background: rgb(174,139,240);
+background: linear-gradient(90deg, rgba(174,139,240,0) 0%, rgba(101,178,226,0.5) 10%, rgba(42,221,216,1) 50%, rgba(101,178,226,0.5) 90%, rgba(174,139,240,0) 100%);
+    border-radius:1px;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding:0.5vmin 0;
+    margin-right: 1vmin;
+    text-align: center;
+    width:50%;
+    float:right;
+   }
+figure img{
+    float:right;
+    width:50%;
+    padding-right:1vmin;
+}
+
+figure:nth-of-type(odd) img,figure:nth-of-type(odd) figcaption{
+    float:left;
+              }
+
+article, .sidenav{
+-webkit-tap-highlight-color:transparent;}
+
+.sidenav a:active{
+  -webkit-transform: scale3d(0.9, 0.9, 1);
+}
+.closebtn:active{
+  -webkit-transform: scale3d(0.9, 0.9, 1);
+}
+
